@@ -1,0 +1,107 @@
+ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.top 
+{
+    background: #088f33;
+}
+.logo 
+{
+    width: 180px;
+}
+.bg-body-tertiary
+{
+    background: #05541e !important;
+}
+.navbar-brand
+{
+    position: absolute;
+    top: -50px;
+    z-index: 9999;
+}
+.navbar-brand img 
+{
+    border: 5px solid orange;
+}
+.navbar-expand-lg .navbar-nav .nav-link
+{
+    color: #ffffff;
+    padding: 20px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover 
+{
+    background: orange;
+}
+.banner .w-100
+{
+    height: 500px;
+    object-fit: cover;
+}
+.carousel-caption
+{
+    right: 8%;
+    bottom: 13rem;
+    text-align: right;
+}
+.featured li::before
+{
+    content: '→';
+}
+.sbox
+{
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+}
+.sbox img 
+{
+    transition: 0.9s;
+}
+.sbox:hover img 
+{
+   transform: scale(1.2);
+}
+.sbox h5 
+{
+    background: orange;
+    color: #fff;
+    padding: 15px;
+    position: absolute; bottom: 20px; left: 0px;
+}
+.sbox:hover h5 
+{
+    background: #088f33;
+}
+.nav-pills .nav-link
+{
+    background: #05541e;
+    color: #fff;
+    border-radius: 0;
+    padding: 15px 25px;
+}
+.nav-pills .nav-link.active 
+{
+    background: orange;
+}
+@media (max-width: 700px) {
+    .logo{ width: 110px;}
+    .navbar-brand{ left: 0; top: -44px;}
+    .navbar-toggler {left: 400px; position: relative;
+    }
+}
+.client
+{
+    background: url(https://www.plannepal.com/assets/img/testimonials/clients.jpg);
+    min-height: 300px;
+    padding: 40px;
+    color: #fff;
+    text-align: center;
+}
+.accordion-flush > .accordion-item > .accordion-header .accordion-button, .accordion-flush > .accordion-item > .accordion-header .accordion-button.collapsed, .copyright
+{
+    background: #05541e;
+    color: #fff;
+}
